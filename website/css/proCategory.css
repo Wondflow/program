@@ -1,0 +1,110 @@
+.content
+{
+	width: auto;
+	height:2000px;
+ 	border: 1px solid #E5E5E5;
+}
+.left
+{
+	width: 182px;
+	height: 832px;
+	margin-left: 135px;
+	margin-top: 15px;
+	border: 1px solid #d7d7d7;
+	background: #f3f3f3;
+	float: left;
+}
+hr
+{
+	width:100%;
+	height: 1px;
+	clear: both;
+	color: #d7d7d7;
+}
+.L-list h3
+{
+	height: 27px;
+	border-bottom: 1px solid #d7d7d7;
+	text-align: center;
+}
+.L-list b
+{
+	display: block;
+	margin-top: 12px;
+}
+.L-list ul,.L-list b
+{
+	margin-left: 15px;
+}
+.L-list .fl
+{
+	float: left;
+	width: 71px;
+}
+.L-list .fr
+{
+	float:right;
+	width: 71px;
+}
+.L-list a
+{
+	display: inline-block;
+	margin: 4px 0px;
+	color:#555555;
+}
+.L-list a:hover
+{
+	color: #F00;
+}
+.right
+{
+	height:auto;
+	width: 810px;
+	margin-top: 15px;
+	margin-left: 10px;
+	float: left;
+}
+.img
+{
+	width: 810px;
+	height: 326px;
+}
+.pro
+{
+	height: 584px;
+	width: 810px;
+	float: left;
+	margin-bottom: 100px;
+}
+
+.pro h3
+{
+	height: 41px;
+	width: 810px;
+	line-height:41px;
+	background:url(../img/line.png) no-repeat bottom;
+}
+.pro-list
+{
+	height: 310px;
+	width: 197px;
+	margin-right: 5px;
+	float: left;
+}
+.pro .pro-list dd
+{
+	line-height: 25px;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+.pro .pro-list dd b
+{
+	color: #FF0000;
+	font-size: 14px;
+}
+.footer
+{
+	clear: both;
+	margin-top: 50px;
+}

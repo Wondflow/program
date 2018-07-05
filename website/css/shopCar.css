@@ -1,0 +1,109 @@
+.content
+{
+	width: 1000px;
+	margin:0px auto;
+	height: 1200px;
+}
+.mess
+{
+	width: 998px;
+	height:auto;
+	border: 1px solid #cccccc;
+	margin-bottom: 20px;
+}
+ h3
+{
+	height: 30px;
+	line-height: 27px;
+	width:990;
+	background-color: #f4f4f4;
+	margin-top: 0px;
+	padding-left: 10px;
+	border-bottom: 1px solid #cccccc;
+}
+.mess p 
+{
+	margin-left: 20px;
+}
+ .red
+{
+	color: red;
+	margin-right: 5px;
+}
+.mess p input.btn
+{
+	background: #4290fb;
+	height: 28px;
+	border: none;
+	margin-top: 25px;
+	width:auto;
+}
+.mess p input.txt
+{
+	height: 18px;
+	border: 1px solid #cccccc;
+	
+}
+.mess p input.addr
+{
+	width: 300px;
+
+}
+
+.mess label.bz
+{
+	font-size: 14px;
+	line-height:20px;
+}
+.pay-list
+{
+	height: 350px;
+	width: 100%;
+}
+.pay-list ul
+{
+	height: 32px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.pay-list li
+{
+	float: left;
+	margin-right: 20px;
+	padding-left: 20px;
+	width: 100px;
+	height: 32px;
+}
+.pay-list li.pro-name
+{
+	width: 400px;
+	height: 32px;
+}
+.pay-list .produce
+{
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	
+}
+.pay-list img
+{
+	float: left;
+}
+.money
+{
+	height: 173px;
+	width:998px;
+	border: 1px solid #cccccc;
+	
+}
+.money p
+{
+	float: right;
+	height: 27px;
+}
+.money input.submit
+{
+	float: right;
+	margin-top: 50px;
+	background: #F00;
+}

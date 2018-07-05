@@ -1,0 +1,207 @@
+body
+{
+	width: 700px;
+	margin: 20px auto;
+	perspective: 700px;
+	
+}
+#content
+{
+	width: 700px;
+	height: 1230px;
+	background: url(../img/c78c10c79f3df8dcc388753ccd11728b461028ad.jpg)  no-repeat center ;
+	position: relative;
+}
+ul,li
+{
+	list-style: none;
+	padding-left: 10px;
+}
+#basiceInfo
+{
+	height: 200px;
+	width: 700px;
+	/*background-color: blanchedalmond;*/
+	border-radius: 20px;
+}
+#occupation
+{
+	height: 200px;
+	width:  250px;
+	float: left;
+}
+#occupation h1
+{
+	padding: 0 20px;
+	color: skyblue;
+	font-size: 40px;
+}
+#occupation span
+{
+	font-size: 30px;
+	padding-left: 10px;
+}
+#occupation p
+{
+	font-size: 18px;
+	line-height: 30px;
+	color: red;
+}
+#Info
+{
+	height: 200px;
+	width: 314px;
+	/*border: 1px solid silver;*/
+	float: left;
+}
+#Info li span
+{
+	line-height: 30px;
+	font-size: 18px;
+	padding-left: 10px;
+}/*基本信息*/
+#pic,#pic img 
+{
+	height: 180px;
+	width:  130px;
+	/*border: 2px solid salmon;*/
+	float:right;
+}/*插入照片*/
+#experiencement
+{
+	height: 220px;
+	width: 700px;
+	border: 1px dotted #05022d;
+	border-radius: 20px;
+}
+#experiencement h4
+{
+	background: url(../img/title1.jpg) no-repeat;
+	height: 60px;
+	margin-top: 0;
+	border-radius: 20px;
+	text-align: center;
+	text-indent: -99999px;
+}
+#experiencement h3,#education h3
+{
+	text-align: center;
+	font-style: italic;
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 20px;
+	margin-top: -20px;
+}
+#experiencement li
+{
+	font-family:幼圆;
+	line-height: 23px;
+}/*实习经验*/
+#honor,#skill
+{
+	height: 150px;
+	width: 330px;
+	border: 1px solid slateblue;
+	float: left;
+	margin: 20px 0px;
+	border-radius: 20px;
+	font-family:幼圆;
+	line-height: 30px;
+}
+#honor h4
+{
+	background:url(../img/title4.jpg) no-repeat;
+	height: 30px;
+	text-align: center;
+	margin-top: 0px;
+	text-indent: -9999px;
+	border-radius: 20px;
+}
+img
+{
+	height: 15px;
+	background: #d5f9ff;
+	margin: 0px 5px;
+}
+#skill
+{
+	float: right;
+}
+#skill h4
+{
+	background:url(../img/title3.jpg)  no-repeat;
+	height: 30px;
+	text-align: center;
+	margin-top: 0px;
+	border-radius: 20px;
+	text-indent: -9999px;
+}
+#education,#appraise
+{
+	height: 200px;
+	width: 700px;
+	border: 1px solid slateblue;
+	margin: 20px 0px;
+	clear: both;
+	border-radius: 20px;
+	font-family:幼圆;
+	line-height: 30px;
+}
+#project
+{
+	height: 165px;
+	width: 700px;
+	border: 1px solid slateblue;
+	border-radius: 20px;
+	font-family:幼圆;
+	line-height: 30px;
+}
+#education h4,#project h4,#appraise  h4
+{
+	background:url(../img/title5.jpg)  no-repeat;
+	height: 40px;
+	text-align: center;
+	margin-top: 0px;
+	border-radius: 20px;
+	text-indent: -9999px;
+}
+#project h4
+{
+	background:url(../img/title6.jpg)  no-repeat;
+}
+#appraise h4
+{
+	background:url(../img/title7.jpg)  no-repeat;
+}
+#education span
+{
+	color: red;
+	font-size: 24px;
+	font-weight: bolder;
+}
+#resume
+{
+	width: 710px;
+	height: 1230px;
+	background:url(../img/4ec2d5628535e5ddb70aa75f77c6a7efce1b620f.jpg) no-repeat center;
+	position: absolute;
+	transform-origin: left;
+	transform-style: preserve-3d;
+	transform: rotateY(0deg);
+	border: 2px blue solid;
+	transition: all 1s linear;
+	top: 0px;
+	left: 0px;
+}
+#resume p{
+	text-align: center;
+	text-decoration: none;
+	font-size: 40px;
+	color:violet;
+	margin-top: 200px;
+
+}
+a
+{
+	display: block;
+}
+
